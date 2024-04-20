@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">My Portfolio</div>
+            <div class="right">
+                <nav>
+                    <ul>
+                        <li><a href="#" onclick="">Home</a></li>
+                        <li><a href="#Experience">Experience</a></li>
+                        <li><a href="#Technical Skills">Skills</a></li>
+                        <li><a href="#Projects">Projects</a></li>
+                        <li><a href="#Contact Me">Contact Me</a></li>
+                    </ul>
+                </nav>
+            </div>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple">Gaurav</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <!-- <img src="background.jpg" class="img1"> -->
+                <img src="obito.png" class="img2">
+                <hr>
+                <h1>Gaurav A. Kadav</h1>
+                <p>Welcome to my Portfolio. This site gives small
+                    introduction about me.</p>
+            </div>
+        </section>
+        <hr id="Experience">
+        <section class="secondSection">
+            <h1>Experience</h1>
+            <p>Atos Syntel Pvt. Ltd, Pune
+                (Sept 2022 - Sept 2023)</p><br>
+            <div style="color: rgb(156, 78, 156);">
+                <p>
+                    I have an Experience of 1 year in IT Industry.
+                    I've trained in .NET Framework for three months,
+                    After completion of training, got allocated to a project
+                    named DAF CT 2.0 a Live Project.
+                    In this project I've worked as a Front-end Developer.
+                    My job is to manage the UI part of the portal also able to
+                    convert the given MS-Unit code into X-Unit, N-Unit for
+                    testing purpose.<br><br>
+                    I've managed to build relation with managers and team-mates.
+                </p>
+            </div>
+        </section>
+        <hr id="Technical Skills">
+        <section class="thirdSection">
+            <h1>Technical Skills</h1><br>
+            <ul style="color:rgb(156, 78, 156);">
+                <li>C# (.Net Framework)</li>
+                <li>Java</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>SQL</li>
+            </ul>
+        </section>
+        <hr id="Projects">
+        <section class="fourthSection">
+            <h1>Projects</h1><br>
+            <ul style="color:rgb(156, 78, 156);">
+                <li>Build an E-Commerce Website using .Net Framework.</li>
+                <li>Build a customer management system(CRUD) using C#.</li>
+                <li>Speaking system for mute people.</li>
+            </ul>
+        </section>
+        <hr id="Contact Me">
+               <section id="contact" class="contactme" style="color: rgb(156, 78, 156);">
+                <h2 style="color: aliceblue;">Contact Me</h2><br>
+                <p>Email: professionalme214@gmail.com</p>
+                <p>Phone: 123-456-7890</p>
+                <form action="#" method="POST">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required><br><br>
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required><br><br>
+                  <label for="message">Message:</label><br>
+                  <textarea id="message" name="message" rows="5" required></textarea><br><br>
+                  <input type="submit" value="Submit" class="primary-btn">
+                </form>
+              </section>
+         <hr>
+    </main>
+    <footer>
+        <div class="footer">
+            <h3>Gaurav's Developer Portfolio</h3>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- setup and start animation-->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', ' Video Editor.', 'Coder.',
+                'Youtuber.', 'Sportsman.', 'Artist.', 'Rapper.', 'University Color Coat Holder.',
+                'AIR 3 in Mallakhamb.', 'Web developer.'],
+            typeSpeed: 50, loop : true
+        });    
+        f1(); {
+            document.getElementById('contactMe');
+        }
+    </script>
+</body>
+</html>
